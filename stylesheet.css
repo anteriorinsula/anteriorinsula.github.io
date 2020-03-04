@@ -1,0 +1,113 @@
+body {
+
+    /*background-color: #e0e4e7;*/
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #444444;
+    font-size: 9pt;
+}
+
+
+/*
+.background {
+    background-image: url("SPATIEBALK_6.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+*/
+
+
+/*
+nav {
+    margin-left: 35%;
+
+font-size: 25px;
+
+    font-family: 'Gothic A1', sans-serif;
+
+}
+*/
+
+main {
+    /* width: 50%;
+    margin-left: 50%;
+    cursor: pointer;*/
+
+
+
+}
+
+#banner {
+    margin-top: -100px;
+    margin-bottom: -70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+p, h2 {
+    /*font-family: 'Gothic A1', sans-serif;/*
+
+     */
+
+    font-family: 'Cutive Mono', monospace;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+
+
+.flex-container {
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.icon {
+    width: 10%;
+    cursor: pointer;
+    /*  height: 10%; */
+}
+
+.td_1 {
+    width: 20%;
+    text-align: center;
+
+}
+
+.td_2 {
+    width: 60%;
+    text-align: center;
+
+
+
+
+}
+
+.td_3 {
+    width: 20%;
+    text-align: center;
+
+
+}
+
+.normal_image_center {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.decoration {
+    text-align: center;
+}
