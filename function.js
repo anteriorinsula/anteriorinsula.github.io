@@ -1,5 +1,20 @@
 
 
+function random_image(){
+    var items = Array("SPATIEBALK_5.gif", "SPATIEBALK_6.gif");
+
+
+
+    var item = items[Math.floor(Math.random() * items.length)]
+
+    console.log(item)
+
+    $("#banner").attr("src",item)
+}
+
+
+
+
 function toggle_image(id, image_src1, image_src2) {
 
     var image = document.getElementById(id);
@@ -33,6 +48,6 @@ $(document).ready(function() {
 
 
 
-
+    random_image()
 
 });
