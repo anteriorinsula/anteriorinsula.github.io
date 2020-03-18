@@ -111,3 +111,16 @@ p, h2 {
 .decoration {
     text-align: center;
 }
+
+
+.not_center {
+    text-align: left;
+    font-size: 25px;
+
+}
+
+.not_center_2 {
+    text-align: left;
+    font-size: 25px;
+
+}
