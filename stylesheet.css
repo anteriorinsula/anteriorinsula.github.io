@@ -124,3 +124,11 @@ p, h2 {
     font-size: 25px;
 
 }
+
+.image_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    widght: 50%;
+}
