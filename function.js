@@ -1,7 +1,8 @@
 
 
+/*
 function random_image(){
-    var items = Array("SPATIEBALK_5.gif", "SPATIEBALK_6.gif");
+    var items = Array("SPATIEBALK_6.gif");
 
 
 
@@ -14,6 +15,7 @@ function random_image(){
 
 
 
+*/
 
 function toggle_image(id, image_src1, image_src2) {
 
