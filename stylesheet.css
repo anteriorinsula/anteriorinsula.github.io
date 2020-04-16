@@ -203,3 +203,22 @@ p, h2 {
     flex-shrink: 0;
   /*  background-color: green; */
 }
+
+ul {
+    list-style: none;
+}
+
+.mix_image_large {
+    width: 500px;
+    height: 500px;
+}
+
+.gif_small {
+    width: 10%;
+    height: 10%;
+    z-index: -1;
+    display: block;
+
+
+
+}
