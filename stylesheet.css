@@ -51,6 +51,17 @@ main {
 }
 
 
+.mix_head {
+    font-size: 30px;
+    border: 11px double #4F4F4F;
+    border-radius: 23px;
+}
+
+#archive_list {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 20px;
+
+}
 
 p, h2 {
     /*font-family: 'Gothic A1', sans-serif;/*
@@ -78,11 +89,12 @@ p, h2 {
 .flex-container_2 {
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: 100%;
     margin-left: 30px;
     margin-right: 30px;
     justify-content: center;
+    align-items: center;
 
 }
 
@@ -99,6 +111,12 @@ p, h2 {
 .decoration {
     text-align: center;
     margin-bottom: 40px;
+}
+
+.decoration_radio {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 18px;
 }
 
 
@@ -135,6 +153,17 @@ p, h2 {
     text-transform: uppercase;
 }
 
+
+
+.tracklist {
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: left;
+    font-family: 'Cutive Mono', monospace;
+
+}
+
+
 #mix_1:hover #mix_1_text {
     display: block;
 }
@@ -156,6 +185,8 @@ p, h2 {
 .container {
     position: relative;
     /*width: 50%; */
+
+
 }
 
 .image {
@@ -195,7 +226,7 @@ p, h2 {
 }
 
 .mix_text {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 
@@ -211,14 +242,43 @@ ul {
 .mix_image_large {
     width: 500px;
     height: 500px;
+
+
 }
 
-.gif_small {
-    width: 10%;
-    height: 10%;
+#gif_small {
+    width: 50%;
+    height: 50%;
     z-index: -1;
     display: block;
 
 
 
 }
+
+
+.break {
+    height: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+
+
+
+
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
