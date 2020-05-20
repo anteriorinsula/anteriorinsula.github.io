@@ -55,6 +55,7 @@ main {
     font-size: 30px;
     border: 11px double #4F4F4F;
     border-radius: 23px;
+    max-width: 450px;
 }
 
 #archive_list {
@@ -263,7 +264,10 @@ ul {
 
 @media only screen and (max-width: 500px) {
 
+    .hide {
+        display: none;
 
+    }
 
 
 }
@@ -282,3 +286,9 @@ ul {
     padding-top: 20px;
 }
 
+
+.release_image_large {
+    width: 800px;
+    height: 500px;
+
+}
