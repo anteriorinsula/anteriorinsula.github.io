@@ -52,9 +52,9 @@ main {
 
 
 .mix_head {
-    font-size: 30px;
-    border: 11px double #4F4F4F;
-    border-radius: 23px;
+    font-size: 40px;
+   border: 11px double #4F4F4F;
+    border-radius: 23px; 
     max-width: 450px;
 }
 
