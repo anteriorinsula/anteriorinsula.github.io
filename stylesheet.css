@@ -56,7 +56,10 @@ main {
    border: 11px double #4F4F4F;
     border-radius: 23px; 
     max-width: 450px;
+
 }
+
+
 
 #archive_list {
     font-family: 'Cutive Mono', monospace;
@@ -228,6 +231,7 @@ p, h2 {
 
 .mix_text {
     font-size: 20px;
+    font-style: italic;
 }
 
 
@@ -291,4 +295,8 @@ ul {
     width: 800px;
     height: 500px;
 
+}
+
+.tracklist_div {
+    max-width: 400px;
 }
