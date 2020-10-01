@@ -61,11 +61,7 @@ main {
 
 
 
-#archive_list {
-    font-family: 'Cutive Mono', monospace;
-    font-size: 20px;
 
-}
 
 p, h2 {
     /*font-family: 'Gothic A1', sans-serif;/*
@@ -159,13 +155,6 @@ p, h2 {
 
 
 
-.tracklist {
-    font-size: 15px;
-    margin-top: 10px;
-    text-align: left;
-    font-family: 'Cutive Mono', monospace;
-
-}
 
 
 #mix_1:hover #mix_1_text {
@@ -230,8 +219,8 @@ p, h2 {
 }
 
 .mix_text {
-    font-size: 20px;
-    font-style: italic;
+    font-size: 18px;
+   /* font-style: italic;*/
 }
 
 
@@ -240,9 +229,6 @@ p, h2 {
   /*  background-color: green; */
 }
 
-ul {
-    list-style: none;
-}
 
 .mix_image_large {
     width: 500px;
@@ -273,14 +259,24 @@ ul {
 
     }
 
+}
+
+@media screen and (max-width: 992px) {
+
+    #extra_margin {
+        margin-top:300px;
+    }
 
 }
 
 
 
+
+
+
 .sidenav {
     height: 100%;
-    width: 160px;
+    width: 150px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -299,4 +295,37 @@ ul {
 
 .tracklist_div {
     max-width: 400px;
+}
+
+
+.tracklist {
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: left;
+    font-family: 'Cutive Mono', monospace;
+    list-style: none;
+    padding: 0;
+
+}
+
+
+ul {
+
+}
+
+#archive_list {
+    font-family: 'Cutive Mono', monospace;
+    font-size: 15px;
+    list-style: none;
+
+
+}
+
+#text_mix_main {
+    z-index: 2;
+    margin-top:50px;
+}
+
+.font_size {
+    font-size: 15px;
 }
