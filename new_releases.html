@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Releases</title>
+
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+<!-- import the latest version of hydra synth-->
+<script src="https://unpkg.com/hydra-synth"></script>
+
+    <style>
+#myCanvas {
+    margin-top: -100px;
+    margin-bottom: -70px;
+    margin-left: -10px;
+    margin-right: 10px;
+    display: block;
+    margin-right: auto;
+    height: 800px;
+    width: 1300px;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+
+
+
+<div id="header">
+    <ul>
+        <li class="li_left"><a href=index.html> Home </a></li>
+
+        <li class="li_left"><a href=https://spatiebalk.bandcamp.com> Releases </a></li>
+        <li class="li_left"><a href=mixes.html> Mixes </a></li>
+        <li class="li_right"><img class="social_insta" src="images/social/instagram.png"></li>
+
+        <!--   <li class="li_right"><img class="social_soundcloud" src="images/social/soundcloud_black.png"></li> -->
+
+
+    </ul>
+
+</div>
+
+<!--
+<div class="sidenav">
+
+
+    <p>
+        <a href="index.html"><<<<<<< back to home </a>
+    </p>
+
+
+
+
+
+</div>
+-->
+
+<audio src="music/test_drone.wav" autoplay loop>
+    <p>If you are reading this, it is because your browser does not support the audio element.     </p>
+</audio>
+
+
+
+<header>        <canvas id="myCanvas"></canvas>
+
+
+
+</header>
+
+
+
+
+
+<script>
+    // create a new hydra-synth instance
+    var hydra = new Hydra({
+        canvas: document.getElementById("myCanvas")
+    })
+
+    osc(5,0.3)
+        .color(1,0,0)
+        .colorama(50)
+        //.kaleid(2)
+        .add(
+            osc(5,0.2)
+                .color(1,0,0)
+                .colorama(60)
+                .rotate(11)
+            //.kaleid(10)
+        )
+        .diff(
+            gradient()
+                .color(1,0,1)
+                //.colorama(10)
+                .rotate(0.3)
+            //.kaleid(2)
+        )
+        .out()
+
+
+
+</script>
+</body>
+</html>
