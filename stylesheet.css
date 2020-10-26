@@ -4,6 +4,55 @@ body {
     font-family: 'Helvetica', 'Arial', sans-serif;
     color: #444444;
     font-size: 9pt;
+    cursor:url(images/circle_cursor_2.png), auto;
+}
+
+
+#header {
+   /* font-family: 'Carter One', cursive; */
+    font-family: 'Arapey', serif;
+
+    color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    padding: 0 0 0 0;
+    z-index: 1;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.li_left {
+    position:relative;
+    float: left;
+    margin-left: 10px;
+}
+
+.li_right {
+    position:relative;
+    float: right;
+    margin-right: 10px;
+}
+
+
+li a {
+    display: block;
+    color: black;
+    /*font-family: 'Oswald', sans-serif;*/
+    /*font-family: 'Cantora One', sans-serif; */
+    font-family: 'Arapey', serif;
+
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 15px;
+
 }
 
 
@@ -34,10 +83,10 @@ main {
     /* width: 50%;
     margin-left: 50%;
     cursor: pointer;*/
-
-
-
 }
+
+
+
 
 #banner {
     margin-top: -100px;
@@ -61,14 +110,13 @@ main {
 
 
 
-
-
 p, h2 {
     /*font-family: 'Gothic A1', sans-serif;/*
 
      */
 
-    font-family: 'Cutive Mono', monospace;
+    /*font-family: 'Cutive Mono', monospace;*/
+    font-family: 'Arapey', serif;
     font-size: 20px;
     text-align: center;
     margin-left: 5%;
@@ -220,7 +268,9 @@ p, h2 {
 
 .mix_text {
     font-size: 18px;
-   /* font-style: italic;*/
+    font-family: 'Arapey', serif;
+
+    /* font-style: italic;*/
 }
 
 
@@ -264,7 +314,11 @@ p, h2 {
 @media screen and (max-width: 992px) {
 
     #extra_margin {
-        margin-top:300px;
+        margin-top: 100px;
+    }
+
+    #get_weird {
+        display: none;
     }
 
 }
@@ -303,6 +357,7 @@ p, h2 {
     margin-top: 10px;
     text-align: left;
     font-family: 'Cutive Mono', monospace;
+
     list-style: none;
     padding: 0;
 
@@ -314,9 +369,12 @@ ul {
 }
 
 #archive_list {
-    font-family: 'Cutive Mono', monospace;
+   /* font-family: 'Cutive Mono', monospace; */
+    font-family: 'Arapey', serif;
     font-size: 15px;
     list-style: none;
+    margin-left: 10px;
+
 
 
 }
@@ -328,4 +386,29 @@ ul {
 
 .font_size {
     font-size: 15px;
+}
+
+.font_size_2 {
+    font-size: 18px;
+}
+
+#logo_small {
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social_soundcloud {
+    width: 5%;
+    height: 5%;
+    float: right;
+}
+
+
+.social_insta {
+    width: 5%;
+    height: 5%;
+    float: right;
+    margin-left: 10%;
 }
