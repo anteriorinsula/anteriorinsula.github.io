@@ -1,1 +1,1 @@
-Simple website for Spatiebalk
+Simple website for ANTERIOR INSULA
