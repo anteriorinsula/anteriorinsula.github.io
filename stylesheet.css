@@ -317,6 +317,7 @@ p, h2 {
 }
 
 
+
 .break {
     height: 20px;
 }
@@ -432,4 +433,39 @@ ul {
     height: 5%;
     float: right;
     margin-left: 10%;
+}
+
+#placeholder {
+    display: none;
+
+}
+
+@media only screen and (max-device-width: 480px) {
+    /*body {
+        background-color: lightblue;
+
+    } */
+
+    li a {
+        font-size: 40px !important;
+        /* margin-left: 10px; */
+    }
+
+    #placeholder {
+        display: block;
+        height: 100px;
+        width: 100%;
+        background-color: white;
+    }
+
+    .main_text {
+        font-size: 40px !important;
+        /* margin-left: 10px; */
+    }
+
+    .mybanner {
+        height: 90% !important;
+        width: 90% !important;
+
+    }
 }
