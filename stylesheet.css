@@ -1,3 +1,17 @@
+
+/* CSS
+.button-59 {
+
+}
+
+*/
+
+#logo_small {
+    height: 10%;
+    width: 10%;
+
+}
+
 body {
 
     /*background-color: #e0e4e7;*/
@@ -574,7 +588,15 @@ ul {
         width: 30% !important;
     }
 
+    .button-59 {
+        display: none !important;
+
     }
+
+    }
+
+
+
 
 
 
