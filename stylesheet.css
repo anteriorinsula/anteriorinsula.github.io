@@ -1,10 +1,15 @@
 
-/* CSS
+/*
 .button-59 {
-
+    position: absolute;
+    z-index: 999;
 }
 
 */
+
+
+
+
 
 #logo_small {
     height: 10%;
@@ -514,6 +519,31 @@ ul {
 }*/
 
 
+#mc-embedded-subscribe {
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background-color:transparent;
+    border:2px solid #000000;
+    display:inline-block;
+    cursor:pointer;
+    color:#000000;
+    font-family: 'Arial', sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    padding:7px 41px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+}
+#mc-embedded-subscribe:hover {
+    background-color:transparent;
+}
+#mc-embedded-subscribe:active {
+    position:relative;
+    top:1px;
+}
+
+
+
+
 @media only screen and (max-device-width: 480px) {
     /*body {
         background-color: lightblue;
@@ -523,6 +553,23 @@ ul {
     li a {
         font-size: 40px !important;
         /* margin-left: 10px; */
+    }
+
+
+
+    #mc-embedded-subscribe {
+        box-shadow:inset 0px 1px 0px 0px #ffffff;
+        background-color:transparent;
+        border:2px solid #000000;
+        display:inline-block;
+        cursor:pointer;
+        color:#000000;
+        font-family: 'Arial', sans-serif;
+        font-size:30px; !important;
+        font-weight:bold;
+        padding:7px 41px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #ffffff;
     }
 
     #placeholder {
@@ -540,6 +587,12 @@ ul {
 
     p {
         font-size: 35px !important;
+
+    }
+
+    h2 {
+
+        font-size: 40px !important;
 
     }
 
@@ -588,10 +641,12 @@ ul {
         width: 30% !important;
     }
 
+    /*
     .button-59 {
         display: none !important;
 
     }
+    */
 
     }
 
