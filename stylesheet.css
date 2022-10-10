@@ -46,14 +46,16 @@ body {
    /* font-family: 'Carter One', cursive; */
     font-family: 'Arapey', serif;
 
+
     color: black;
     position: fixed;
     top: 0;
+    margin-left: 0;
     width: 100%;
     background-color: white;
     padding: 0 0 0 0;
     z-index: 1;
-    font-size: 200%;
+    font-size: 250%;
 
 }
 
