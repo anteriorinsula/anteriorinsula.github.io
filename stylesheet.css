@@ -11,6 +11,12 @@
 
 
 
+
+.placeholder_live {
+    height: 70px;
+
+}
+
 #logo_small {
     height: 10%;
     width: 10%;
@@ -258,6 +264,11 @@ p, h2 {
 
 }
 
+.live_image {
+    height: 50%;
+    width: 50%;
+}
+
 /*
 .a img:hover {
     opacity: .5;
@@ -311,9 +322,15 @@ p, h2 {
 .mix_text {
     font-size: 18px;
     font-family: 'Arapey', serif;
-
     /* font-style: italic;*/
 }
+
+.live_title {
+    font-size: 18px;
+   /* font-family: 'Arapey', serif;*/
+
+}
+
 
 
 #footer {
