@@ -1,36 +1,45 @@
+body {
 
-/*
-.button-59 {
-    position: absolute;
-    z-index: 999;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    color: #444444;
+    font-size: 9pt;
+    background-color: white;
 }
 
-*/
+#mc_embed_signup
+
+{background:#fff;
+    clear:left;
+    width:600px;
+    font-family: 'Arapey', serif;
+margin-left: auto;
+margin-right: auto;}
+
+
+#iframeBandcamp {
+    border: 0;
+    width: 100%;
+    height: 33px;
+
+}
+
+
+#banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%;
+    width: 30%;
+    margin-bottom: 40px;
+    margin-top: 40px;
 
 
 
-
-
+}
 
 .placeholder_live {
     height: 70px;
 
-}
-
-#logo_small {
-    height: 10%;
-    width: 10%;
-
-}
-
-body {
-
-    /*background-color: #e0e4e7;*/
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    color: #444444;
-    font-size: 9pt;
-    background-color: white;
-    /*#bcd3de*/
 }
 
 
@@ -39,20 +48,9 @@ body {
     float: left;
 }
 
-/*
- Allow the centering to work
-.table {
-    display: table;
-    margin: 0 auto;
-}
-
-*/
 
 #header {
-   /* font-family: 'Carter One', cursive; */
     font-family: 'Arapey', serif;
-
-
     color: black;
     position: fixed;
     top: 0;
@@ -65,21 +63,21 @@ body {
 
 }
 
-table, th, td {
-    border: 1px solid black;
-}
+
+
 
 ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
     overflow: hidden;
+
 }
 
 .li_left {
     position:relative;
     float: left;
-   /* margin-left: 10px; */
+
 }
 
 .li_right {
@@ -93,10 +91,7 @@ ul {
 li a {
     display: block;
     color: black;
-    /*font-family: 'Oswald', sans-serif;*/
-    /*font-family: 'Cantora One', sans-serif; */
     font-family: 'Arapey', serif;
-
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
@@ -105,46 +100,6 @@ li a {
 }
 
 
-/*
-.background {
-    background-image: url("SPATIEBALK_6.gif");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-
-}
-
-*/
-
-
-/*
-nav {
-    margin-left: 35%;
-
-font-size: 25px;
-
-    font-family: 'Gothic A1', sans-serif;
-
-}
-*/
-
-main {
-    /* width: 50%;
-    margin-left: 50%;
-    cursor: pointer;*/
-}
-
-
-
-
-#banner {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 20%;
-    width: 20%;
-
-}
 
 
 .mix_head {
@@ -158,11 +113,7 @@ main {
 
 
 p, h2 {
-    /*font-family: 'Gothic A1', sans-serif;/*
 
-     */
-
-    /*font-family: 'Cutive Mono', monospace;*/
     font-family: 'Arapey', serif;
     font-size: 20px;
     text-align: center;
@@ -269,16 +220,9 @@ p, h2 {
     width: 50%;
 }
 
-/*
-.a img:hover {
-    opacity: .5;
-}
-*/
-
 
 .container {
     position: relative;
-    /*width: 50%; */
 
 
 }
@@ -327,7 +271,6 @@ p, h2 {
 
 .live_title {
     font-size: 18px;
-   /* font-family: 'Arapey', serif;*/
 
 }
 
@@ -335,7 +278,6 @@ p, h2 {
 
 #footer {
     flex-shrink: 0;
-  /*  background-color: green; */
 }
 
 
@@ -356,49 +298,10 @@ p, h2 {
 
 }
 
-
-
 .break {
     height: 20px;
 }
 
-@media only screen and (max-width: 500px) {
-
-    .hide {
-        display: none;
-
-    }
-
-}
-
-@media screen and (max-width: 992px) {
-
-    #extra_margin {
-        margin-top: 100px;
-    }
-
-    #get_weird {
-        display: none;
-    }
-
-}
-
-
-
-
-
-
-.sidenav {
-    height: 100%;
-    width: 150px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: white;
-    overflow-x: hidden;
-    padding-top: 20px;
-}
 
 
 .release_image_large {
@@ -418,28 +321,11 @@ p, h2 {
     text-align: left;
    /* font-family: 'Cutive Mono', monospace; */
     font-family: 'Arapey', serif;
-
-
     list-style: none;
     padding: 0;
 
 }
 
-
-ul {
-
-}
-
-#archive_list {
-   /* font-family: 'Cutive Mono', monospace; */
-    font-family: 'Arapey', serif;
-    font-size: 15px;
-    list-style: none;
-    margin-left: 10px;
-
-
-
-}
 
 #text_mix_main {
     z-index: 2;
@@ -454,12 +340,7 @@ ul {
     font-size: 18px;
 }
 
-#logo_small {
-    width: 50%;
-    height: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 .social_soundcloud {
     width: 5%;
@@ -475,55 +356,15 @@ ul {
     margin-left: 10%;
 }
 
-#bandcamp {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
+
 
 
 #placeholder {
     display: none;
 }
 
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
 
-/* Modal Content/Box */
-.modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-}
 
-/* The Close Button */
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
 
 .flex-container {
     display: flex;
@@ -533,63 +374,14 @@ ul {
 
 }
 
-/*
-#bandcamp_phone {
-    display: none;
-}*/
-
-
-#mc-embedded-subscribe {
-    box-shadow:inset 0px 1px 0px 0px #ffffff;
-    background-color:transparent;
-    border:2px solid #000000;
-    display:inline-block;
-    cursor:pointer;
-    color:#000000;
-    font-family: 'Arial', sans-serif;
-    font-size:15px;
-    font-weight:bold;
-    padding:7px 41px;
-    text-decoration:none;
-    text-shadow:0px 1px 0px #ffffff;
-}
-#mc-embedded-subscribe:hover {
-    background-color:transparent;
-}
-#mc-embedded-subscribe:active {
-    position:relative;
-    top:1px;
-}
-
 
 
 
 @media only screen and (max-device-width: 480px) {
-    /*body {
-        background-color: lightblue;
 
-    } */
 
     li a {
         font-size: 55px !important;
-        /* margin-left: 10px; */
-    }
-
-
-
-    #mc-embedded-subscribe {
-        box-shadow:inset 0px 1px 0px 0px #ffffff;
-        background-color:transparent;
-        border:2px solid #000000;
-        display:inline-block;
-        cursor:pointer;
-        color:#000000;
-        font-family: 'Arial', sans-serif;
-        font-size:30px; !important;
-        font-weight:bold;
-        padding:7px 41px;
-        text-decoration:none;
-        text-shadow:0px 1px 0px #ffffff;
     }
 
     #placeholder {
@@ -627,51 +419,48 @@ ul {
         margin-right: auto !important;
     }
 
-    .li_left {
-        /*float: none !important;
-        display: inline !important; */
 
-    }
 
-    .sidenav {
-        display: none !important;
-    }
 
     .decoration_radio {
         font-size: 18px !important;
     }
 
 
-    #bandcamp_web {
+    #iframeBandcamp {
+        display: block; !important;
+       margin-right: auto; !important;
+        margin-left: auto; !important;
+    }
+
+
+
+    .marginMobile {
+
+        height: 20px;
+    }
+
+    .hide {
+        display: none;
+
+    }
+
+    }
+
+
+
+
+/*
+
+@media screen and (max-width: 992px) {
+
+    #extra_margin {
+        margin-top: 100px;
+    }
+
+    #get_weird {
         display: none;
     }
 
-    /*
-    #bandcamp_phone {
-        display: unset !important;
-    }*/
-
-    .placeholder_banner_mixes {
-        height: 100px !important;
-    }
-
-
-    #logo_banner_mixes {
-        height: 30% !important;
-        width: 30% !important;
-    }
-
-    /*
-    .button-59 {
-        display: none !important;
-
-    }
-    */
-
-    }
-
-
-
-
-
-
+}
+*/
