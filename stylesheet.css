@@ -380,6 +380,10 @@ p, h2 {
 @media only screen and (max-device-width: 480px) {
 
 
+    #bandcamp_web {
+        display: none; !important
+    }
+
     li a {
         font-size: 55px !important;
     }
