@@ -1,20 +1,80 @@
 body {
 
     font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-    color: #444444;
-    font-size: 9pt;
-    background-color: white;
+    color: dimgrey;
+    background-color: whitesmoke;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 16px;
+
 
 }
 
-#mc_embed_signup
 
-{background:#fff;
+#social a {
+    color: dimgrey;
+
+
+}
+
+.hidden {
+    display: None;
+}
+
+
+
+.flex-container3 {
+
+
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #696969;
+
+}
+
+.row1  {
+    border-right: 1px solid #696969;
+    border-bottom: 1px solid #696969;
+
+    width: 100%;
+
+
+}
+
+.row2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+
+
+}
+
+.border {
+    border: 1px solid dimgrey;
+    border-radius: 61px 61px 61px 61px;
+    -webkit-border-radius: 61px 61px 61px 61px;
+    -moz-border-radius: 61px 61px 61px 61px;
+}
+
+.decoration {
+
+    border-bottom: 1px solid #696969;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+
+}
+
+#mc_embed_signup  {
+    background:#fff;
     clear:left;
     width:600px;
-    font-family: 'Arapey', serif;
-margin-left: auto;
-margin-right: auto;}
+   /* font-family: 'Arapey', serif; */
+    margin-left: 5%;
+    /* margin-right: auto; */
+}
 
 
 #iframeBandcamp {
@@ -27,15 +87,13 @@ margin-right: auto;}
 
 #banner {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 30%;
-    width: 30%;
+/*    margin-left: auto;
+    margin-right: auto; */
+  /*  height: 400px; */
+    width: 400px;
     margin-bottom: 40px;
     margin-top: 40px;
-
-
-
+    margin-left: 2%;
 }
 
 .placeholder_live {
@@ -45,26 +103,30 @@ margin-right: auto;}
 
 
 #list_text {
-    font-size: 10px;
+  /*  font-size: 10px; */
     float: left;
 }
 
 
 #header {
-    font-family: 'Arapey', serif;
-    color: black;
+  /*  font-family: 'Arapey', serif; */
+    color: dimgrey;
     position: fixed;
     top: 0;
     margin-left: 0;
     width: 100%;
-    background-color: white;
+    background-color: whitesmoke;
     padding: 0 0 0 0;
     z-index: 1;
-    font-size: 300%;
+    border-bottom: 1px solid #696969;
+
 
 }
 
-
+#mixplayer {
+    margin-left: 5%;
+    margin-right: 60%;
+}
 
 
 ul {
@@ -78,6 +140,7 @@ ul {
 .li_left {
     position:relative;
     float: left;
+    margin-left: 5%;
 
 }
 
@@ -91,12 +154,12 @@ ul {
 
 li a {
     display: block;
-    color: black;
-    font-family: 'Arapey', serif;
+    color: dimgrey;
+   /* font-family: 'Arapey', serif; */
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
-    font-size: 18px;
+ /*   font-size: 18px; */
 
 }
 
@@ -104,7 +167,7 @@ li a {
 
 
 .mix_head {
-    font-size: 40px;
+   /* font-size: 40px; */
    border: 11px double #4F4F4F;
     border-radius: 23px;
     max-width: 450px;
@@ -113,16 +176,25 @@ li a {
 
 
 
-p, h2 {
+p {
 
-    font-family: 'Arapey', serif;
-    font-size: 20px;
-    text-align: center;
+ /*   font-family: 'Arapey', serif; */
+  /*  font-size: 20px; */
+ /*   text-align: center; */
     margin-left: 5%;
     margin-right: 5%;
 
 }
 
+h2 {
+
+    /*   font-family: 'Arapey', serif; */
+    font-size: 20px;
+  /*  text-align: center; */
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
 
 
 .flex-container {
@@ -138,47 +210,24 @@ p, h2 {
     display: flex;
     flex-direction: column;
     height: 100%;
-    margin-left: 30px;
-    margin-right: 30px;
-    justify-content: center;
-    align-items: center;
+  /*  margin-left: 30px;
+    margin-right: 30px; */
+  /*  justify-content: center;
+    align-items: center; */
 
 }
 
 
 
-.normal_image_center {
-    height: 50%;
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.decoration {
-    text-align: center;
-    margin-bottom: 40px;
-}
 
 .decoration_radio {
-    text-align: center;
+  /*  text-align: center; */
     margin-top: -10px;
     margin-bottom: 40px;
-    font-size: 18px;
+  /*  font-size: 18px; */
 }
 
 
-.not_center {
-    text-align: left;
-    font-size: 25px;
-
-}
-
-.not_center_2 {
-    text-align: left;
-    font-size: 25px;
-
-}
 
 .image_center {
     display: block;
@@ -186,35 +235,6 @@ p, h2 {
 
 }
 
-.mix_table {
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-
-#mix_1_text {
-    border: 1px solid #ccc;
-    display: none;
-    font-size: 10px;
-    margin-top: 10px;
-    padding: 5px;
-    text-transform: uppercase;
-}
-
-
-
-
-
-#mix_1:hover #mix_1_text {
-    display: block;
-}
-
-.mix_image {
-    height: 300px;
-    width: 300px;
-
-
-}
 
 .live_image {
     height: 50%;
@@ -234,46 +254,7 @@ p, h2 {
     width: 300px;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 300px;
-    width: 300px;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: white;
-}
 
-.container:hover .overlay {
-    opacity: 0.7;
-}
-
-.text {
-    color: black;
-    font-family: 'Cutive Mono', monospace;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.mix_text {
-    font-size: 18px;
-    font-family: 'Arapey', serif;
-    /* font-style: italic;*/
-}
-
-.live_title {
-    font-size: 18px;
-
-}
 
 
 
@@ -285,19 +266,12 @@ p, h2 {
 .mix_image_large {
     width: 500px;
     height: 500px;
+    margin-left: 5%;
 
 
 }
 
-#gif_small {
-    width: 50%;
-    height: 50%;
-    z-index: -1;
-    display: block;
 
-
-
-}
 
 .break {
     height: 20px;
@@ -313,6 +287,7 @@ p, h2 {
 
 .tracklist_div {
     max-width: 400px;
+    margin-left: 5%;
 }
 
 
@@ -321,7 +296,7 @@ p, h2 {
     margin-top: 10px;
     text-align: left;
    /* font-family: 'Cutive Mono', monospace; */
-    font-family: 'Arapey', serif;
+   /* font-family: 'Arapey', serif; */
     list-style: none;
     padding: 0;
 
@@ -342,24 +317,6 @@ p, h2 {
 }
 
 
-
-.social_soundcloud {
-    width: 5%;
-    height: 5%;
-    float: right;
-}
-
-
-.social_insta {
-    width: 5%;
-    height: 5%;
-    float: right;
-    margin-left: 10%;
-}
-
-
-
-
 #placeholder {
     display: none;
 }
@@ -370,8 +327,8 @@ p, h2 {
 .flex-container {
     display: flex;
     flex-direction: row;
-    justify-content: center; /* center items horizontally, in this case */
-    align-items: center;     /* center items vertically, in this case */
+ /*   justify-content: center; /* center items horizontally, in this case */
+ /*    align-items: center;     /* center items vertically, in this case */
 
 }
 
@@ -380,13 +337,31 @@ p, h2 {
 
 @media only screen and (max-device-width: 480px) {
 
+    .hidden {
+        display: block;
+    }
+
+
+    .row2 {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .flex-container3 {
+        display: flex;
+        flex-direction: column !important;
+    }
 
     #bandcamp_web {
-        display: none; !important
+        display: none !important;
     }
 
     li a {
-        font-size: 55px !important;
+        font-size: 30px !important;
     }
 
     #placeholder {
@@ -397,19 +372,33 @@ p, h2 {
     }
 
     .main_text {
-        font-size: 40px !important;
+        font-size: 30px !important;
         /* margin-left: 10px; */
     }
 
 
+
+    #banner {
+        height: 80% !important;
+        width: 80% !important;
+        margin-bottom: 40px !important;
+        margin-top: 40px  !important;
+    }
+
     p {
-        font-size: 35px !important;
+        font-size: 30px !important;
 
     }
 
     h2 {
 
-        font-size: 40px !important;
+        font-size: 30px !important;
+
+    }
+
+    .tracklist {
+
+        font-size: 20px !important;
 
     }
 
@@ -423,7 +412,6 @@ p, h2 {
         margin-left: auto !important;
         margin-right: auto !important;
     }
-
 
 
 
@@ -450,7 +438,14 @@ p, h2 {
 
     }
 
+
+    #mixplayer {
+        margin-left: 5%;
+        margin-right: 40% !important;
     }
+
+
+}
 
 
 
