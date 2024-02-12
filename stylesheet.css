@@ -97,7 +97,7 @@ body {
 }
 
 .placeholder_live {
-    height: 70px;
+    height: 40px;
 
 }
 
@@ -362,6 +362,8 @@ h2 {
 
     li a {
         font-size: 35px !important;
+        margin-top:5px;
+        margin-bottom:5px;
     }
 
     #placeholder {
@@ -441,7 +443,7 @@ h2 {
 
     #mixplayer {
         margin-left: 5%;
-        margin-right: 40% !important;
+       /* margin-right: 40% !important; */
     }
 
 
