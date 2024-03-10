@@ -97,9 +97,15 @@ body {
 }
 
 .placeholder_live {
-    height: 40px;
+    height: 50px;
 
 }
+
+.placeholder_releases {
+    height: 80px;
+
+}
+
 
 
 #list_text {
@@ -113,6 +119,21 @@ body {
     color: dimgrey;
     position: fixed;
     top: 0;
+    margin-left: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 0 0 0 0;
+    z-index: 1;
+    border-bottom: 1px solid #696969;
+
+
+}
+
+#header2 {
+    /*  font-family: 'Arapey', serif; */
+    color: dimgrey;
+    position: fixed;
+    top: 50px;
     margin-left: 0;
     width: 100%;
     background-color: whitesmoke;
