@@ -108,7 +108,6 @@ html, body {
 
 
 #banner {
-    /*  width:100vw;  */
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
@@ -119,15 +118,6 @@ html, body {
 
 }
 
-/*
-#banner {
-    display: block;
-    width: 400px;
-    margin-bottom: 40px;
-    margin-top: 40px;
-    margin-left: 2%;
-    
-}*/
 
 .placeholder_live {
     height: 50px;
@@ -142,13 +132,11 @@ html, body {
 
 
 #list_text {
-  /*  font-size: 10px; */
     float: left;
 }
 
 
 #header {
-  /*  font-family: 'Arapey', serif; */
     color: dimgrey;
     position: fixed;
     top: 0;
@@ -163,7 +151,6 @@ html, body {
 }
 
 #header2 {
-    /*  font-family: 'Arapey', serif; */
     color: dimgrey;
     position: fixed;
     top: 50px;
@@ -209,11 +196,9 @@ ul {
 li a {
     display: block;
     color: dimgrey;
-   /* font-family: 'Arapey', serif; */
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
- /*   font-size: 18px; */
 
 }
 
@@ -335,8 +320,7 @@ h2 {
     font-size: 12px;
     margin-top: 10px;
     text-align: left;
-   /* font-family: 'Cutive Mono', monospace; */
-   /* font-family: 'Arapey', serif; */
+
     list-style: none;
     padding: 0;
 
@@ -397,7 +381,7 @@ h2 {
     }
 
     #mixplayer {
-        margin-left: 5%;
+        margin-left: 5% !important;
         margin-right: 5% !important;
     }
 
@@ -406,7 +390,7 @@ h2 {
     }
 
     li a {
-        font-size: 35px !important;
+       font-size: 13px;
         margin-top:5px;
         margin-bottom:5px;
     }
@@ -419,8 +403,7 @@ h2 {
     }
 
     .main_text {
-        font-size: 30px !important;
-        /* margin-left: 10px; */
+       font-size: 12px; 
     }
 
 
@@ -433,19 +416,19 @@ h2 {
     }
 
     p {
-        font-size: 30px !important;
+        font-size: 12px !important;
 
     }
 
     h2 {
 
-        font-size: 30px !important;
+        font-size: 14px !important;
 
     }
 
     .tracklist {
 
-        font-size: 20px !important;
+        font-size: 12px !important;
 
     }
 
@@ -463,7 +446,7 @@ h2 {
 
 
     .decoration_radio {
-        font-size: 18px !important;
+        font-size: 12px !important;
     }
 
 
