@@ -93,6 +93,11 @@ html, body {
     margin-left: 5%;
 }
 
+#mc-embedded-subscribe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
 #iframeBandcamp {
     border: 0;
