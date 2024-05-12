@@ -6,9 +6,30 @@ body {
     margin-left: 0px;
     margin-right: 0px;
     font-size: 16px;
+    display: flex;
+    flex-direction: column;
 
 
 }
+
+
+html, body {
+    /* IE 10-11 didn't like using min-height */
+    height: 100%;
+  }
+
+
+
+  .content {
+    flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  }
+
+
+  .footer {
+    flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    padding: 20px;
+  }
+
 
 
 #social a {
@@ -33,13 +54,11 @@ body {
 
 }
 
+
+
 .row1  {
-    border-right: 1px solid #696969;
-    border-bottom: 1px solid #696969;
-
     width: 100%;
-
-
+    margin-top:30px;
 }
 
 .row2 {
@@ -47,9 +66,8 @@ body {
     width: 100%;
     align-items: center;
     justify-content: left;
-
-
 }
+
 
 .border {
     border: 1px solid dimgrey;
@@ -71,10 +89,8 @@ body {
 #mc_embed_signup  {
     background:#fff;
     clear:left;
-    width:600px;
-   /* font-family: 'Arapey', serif; */
+  /*  width:600px; */
     margin-left: 5%;
-    /* margin-right: auto; */
 }
 
 
@@ -87,15 +103,26 @@ body {
 
 
 #banner {
+    /*  width:100vw;  */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 0;
     display: block;
-/*    margin-left: auto;
-    margin-right: auto; */
-  /*  height: 400px; */
+    width: 400px; 
+
+
+}
+
+/*
+#banner {
+    display: block;
     width: 400px;
     margin-bottom: 40px;
     margin-top: 40px;
     margin-left: 2%;
-}
+    
+}*/
 
 .placeholder_live {
     height: 50px;
@@ -147,7 +174,7 @@ body {
 
 #mixplayer {
     margin-left: 5%;
-    margin-right: 60%;
+    margin-right: 50%;
 }
 
 
@@ -200,9 +227,7 @@ li a {
 
 p {
 
- /*   font-family: 'Arapey', serif; */
-  /*  font-size: 20px; */
- /*   text-align: center; */
+
     margin-left: 5%;
     margin-right: 5%;
 
@@ -210,9 +235,7 @@ p {
 
 h2 {
 
-    /*   font-family: 'Arapey', serif; */
     font-size: 20px;
-  /*  text-align: center; */
     margin-left: 5%;
     margin-right: 5%;
 
@@ -232,10 +255,6 @@ h2 {
     display: flex;
     flex-direction: column;
     height: 100%;
-  /*  margin-left: 30px;
-    margin-right: 30px; */
-  /*  justify-content: center;
-    align-items: center; */
 
 }
 
@@ -243,10 +262,8 @@ h2 {
 
 
 .decoration_radio {
-  /*  text-align: center; */
     margin-top: -10px;
     margin-bottom: 40px;
-  /*  font-size: 18px; */
 }
 
 
@@ -279,10 +296,6 @@ h2 {
 
 
 
-
-#footer {
-    flex-shrink: 0;
-}
 
 
 .mix_image_large {
@@ -378,6 +391,11 @@ h2 {
         flex-direction: column !important;
     }
 
+    #mixplayer {
+        margin-left: 5%;
+        margin-right: 5% !important;
+    }
+
     #bandcamp_web {
         display: none !important;
     }
@@ -443,12 +461,6 @@ h2 {
         font-size: 18px !important;
     }
 
-
-    #iframeBandcamp {
-        display: block; !important;
-       margin-right: auto; !important;
-        margin-left: auto; !important;
-    }
 
 
 
