@@ -375,6 +375,17 @@ h2 {
 
     }
 
+
+    .mix_image_large {
+        width: 300px;
+        height: auto !important;
+        margin-left: 5%;
+        margin-right: 5%;
+
+    
+    
+    }
+
     .flex-container3 {
         display: flex;
         flex-direction: column !important;
@@ -389,8 +400,8 @@ h2 {
         display: none !important;
     }
 
-    li a {
-       font-size: 13px;
+    li a { 
+       font-size: 14px;
         margin-top:5px;
         margin-bottom:5px;
     }
@@ -466,6 +477,10 @@ h2 {
     #mixplayer {
         margin-left: 5%;
        /* margin-right: 40% !important; */
+    }
+
+    #social {
+        font-size:12px;
     }
 
 
